@@ -32,3 +32,7 @@ artifacts:
 # Store images in Google Artifact Registry
 images:
 - us-central1-docker.pkg.dev/${PROJECT_ID}/${_ARTIFACT_REGISTRY_REPO}/hello-world:${SHORT_SHA}
+
+# options
+options:
+  logging: CLOUD_LOGGING_ONLY
